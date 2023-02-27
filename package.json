@@ -1,6 +1,10 @@
 {
+  "homepage": "https://akhil-h.github.io/RazorpayClone/",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "predeploy":"yarm run build",
+    "deploy":"gh-page -d build"
+    
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
